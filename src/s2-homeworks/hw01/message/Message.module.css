@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 .message {
-display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 24px 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .imageAndText {
-flex-direction: row;
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .text {
@@ -19,7 +30,7 @@ flex-direction: row;
 }
 
 .name {
-
+    font-weight: 600;
 }
 
 .messageText {
@@ -27,5 +38,7 @@ flex-direction: row;
 }
 
 .time {
-
+    margin: 5px 11px;
+    font-size: 10px;
+    font-weight: 600;
 }

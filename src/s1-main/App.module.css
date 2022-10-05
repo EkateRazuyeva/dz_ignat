@@ -2,6 +2,7 @@
 
 .App {
     --header_height: 60px;
+    width: 1280px;
 }
 
 .hw {
@@ -10,7 +11,7 @@
 }
 
 .hwTitle {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
