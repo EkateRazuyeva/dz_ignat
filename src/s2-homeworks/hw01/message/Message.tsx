@@ -38,6 +38,7 @@ const Message = (props: MessagePropsType) => {
                 {props.message.message.time}
                 {/**/}
             </div>
+
         </div>
     )
 }

@@ -38,7 +38,7 @@ export const message0: MessageType = {
         name: 'Emily',  // можно менять
     },
     message: {
-        text: 'So, have you decided where would you like to go on next holiday?', // можно менять
+        text: 'So, where would you like to go on next holiday?', // можно менять
         time: '22:00', // можно менять
     },
 }
